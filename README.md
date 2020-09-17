@@ -7,7 +7,7 @@ basic boilerplate for any express programming I might do
 
 Look over and complete the following steps to start a new project (call it whatever you like!):
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
+1. Clone this repository to your local machine `git clone https://github.com/TheoMakaurii/node-boilerplate.git YOUR-NEW-PROJECT-NAME`
 2. `cd` into the cloned repository
 3. Make a fresh start of the git history for this project with --> `rm -rf .git && git init`
 4. You will need to install the node dependencies --> `npm install`
