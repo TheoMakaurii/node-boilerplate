@@ -19,14 +19,14 @@ app.get('/', (req, res)=>{
 });
 
 app.use(function errorHAndler(error, req, res, next){
-    let respnonse
+    let response
     if(NODE_ENV === 'production'){
         response = {error: {message: 'whoops! server error'}}
     } else{
         console.error(error)
-        respnonse ={message: error.message, error}
+        response ={message: error.message, error}
     }
-    res.status(500).json(respnonse)
+    res.status(500).json(response)
 })
 
 module.exports = app;
